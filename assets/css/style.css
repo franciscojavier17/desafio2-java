@@ -1,0 +1,68 @@
+body{
+    padding: 0%;
+    background-color: gainsboro;
+}
+
+.alinearflex {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+img{
+    width: 600px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.div-container img{
+    width: 300px;
+    border-radius: 75px;
+    margin-bottom: 3%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.desafio3-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container3 button{
+    margin-top: 1rem;
+}
+
+.check{
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
